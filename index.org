@@ -16,8 +16,8 @@
   Hello there! This is a webpage for some of my notes I took while tutoring in
   the Spring of 2021. This notes collection includes worked examples, problems,
   worksheet questions for Calculus II, Calculus III, and Physics I. Of course, I
-  took notes while tutor for KU School of Engineering, the class codes I tutored
-  are MATH 126, MATH 127, and PHSX 210, respectively.
+  took notes while tutoring for KU School of Engineering. The class codes I
+  tutored are MATH 126, MATH 127, and PHSX 210.
 
   Please find all the notes and their files linked below
 * Calculus II
