@@ -1,0 +1,63 @@
+#+latex_class: sandy-article
+#+latex_compiler: xelatex
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:t
+#+options: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:t e:t
+#+options: email:t f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+options: tasks:t tex:t timestamp:t title:t toc:nil todo:t |:t num:nil
+#+html_head: <link rel="stylesheet" href="https://sandyuraz.com/styles/org.min.css">
+#+language: en
+
+#+title: Sandy's Tutor Notes
+#+subtitle: Spring 2021
+#+author: Sandy Urazayev
+#+date: 32; 12021 H.E.
+#+email: University of Kansas (ctu@ku.edu)
+* Introduction
+  Hello there! This is a webpage for some of my notes I took while tutoring in
+  the Spring of 2021. This notes collection includes worked examples, problems,
+  worksheet questions for Calculus II, Calculus III, and Physics I. Of course, I
+  took notes while tutor for KU School of Engineering, the class codes I tutored
+  are MATH 126, MATH 127, and PHSX 210, respectively.
+
+  Please find all the notes and their files linked below
+* Calculus II
+  - [[./MATH126H/MATH126H_2_9.pdf][February 9th]]
+  - [[./MATH126A/MATH126A_2_22.pdf][February 22nd]]
+  - [[./MATH126H/MATH126H_2_23.pdf][February 23rd]]
+  - [[./MATH126A/MATH126A_3_1.pdf][March 1st]]
+  - [[./MATH126H/MATH126H_3_2.pdf][March 2nd]]
+  - [[./MATH126A/MATH126A_3_8.pdf][March 8th]]
+  - [[./MATH126A/MATH126A_3_15.pdf][March 15th]]
+  - [[./MATH126H/MATH126H_3_16.pdf][March 16th]]
+  - [[./MATH126A/MATH126A_3_22.pdf][March 22nd]]
+  - [[./MATH126H/MATH126H_3_23.pdf][March 23rd]]
+  - [[./MATH126A/MATH126A_03_29.pdf][March 29th]]
+  - [[./MATH126H/MATH126H_03_30.pdf][March 30th]]
+  - [[./MATH126A/MATH126A_04_05.pdf][April 5th]]
+    
+* Calculus III
+  - [[./MATH127C/MATH127C_2_10.pdf][February 10th]]
+  - [[./MATH127C/MATH127C_2_17.pdf][February 17th]]
+  - [[./MATH127C/MATH127C_2_24.pdf][February 24th]]
+  - [[./MATH127C/MATH127C_3_3.pdf][March 3rd]]
+  - [[./MATH127C/MATH127C_3_9.pdf][March 9th]]
+  - [[./MATH127C/MATH127C_3_17.pdf][March 17th]]
+  - [[./MATH127C/MATH127C_3_24.pdf][March 24th]]
+  - [[./MATH127C/MATH127C_03_31.pdf][March 31st]]
+
+* Physics I
+  - [[./PHSX210G/PHSX210G_2_3.pdf][February 3rd]]
+  - [[./PHSX210B/PHSX210B_2_18.pdf][February 18th]]
+  - [[./PHSX210G/PHSX210G_2_22.pdf][February 22nd]]
+  - [[./PHSX210B/PHSX210B_2_25.pdf][February 25th]]
+  - [[./PHSX210G/PHSX210G_3_1.pdf][March 1st]]
+  - [[./PHSX210B/PHSX210B_3_4.pdf][March 4th]]
+  - [[./PHSX210G/PHSX210G_3_8.pdf][March 8th]]
+  - [[./PHSX210B/PHSX210B_3_11.pdf][March 11th]]
+  - [[./PHSX210G/PHSX210G_3_15.pdf][March 15th]]
+  - [[./PHSX210B/PHSX210B_3_18.pdf][March 18th]]
+  - [[./PHSX210G/PHSX210G_3_22.pdf][March 22nd]]
+  - [[./PHSX210B/PHSX210B_03_25.pdf][March 25th]]
+  - [[./PHSX210G/PHSX210G_03_29.pdf][March 29th]]
+  - [[./PHSX210B/PHSX210B_04_01.pdf][April 1st]]
+  - [[./PHSX210G/PHSX210G_04_05.pdf][April 5th]]
