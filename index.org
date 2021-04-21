@@ -35,7 +35,7 @@
   - [[./MATH126H/MATH126H_03_30.pdf][March 30th]]
   - [[./MATH126A/MATH126A_04_05.pdf][April 5th]]
   - [[./MATH126A/MATH126A_04_12.pdf][April 12th]]
-  - [[./MATH126A/MATH126H_04_20.pdf][April 20th]]
+  - [[./MATH126H/MATH126H_04_20.pdf][April 20th]]
 
 * Calculus III
   - [[./MATH127C/MATH127C_2_10.pdf][February 10th]]
