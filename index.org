@@ -48,6 +48,7 @@
   - [[./MATH127C/MATH127C_03_31.pdf][March 31st]]
   - [[./MATH127C/MATH127C_04_07.pdf][April 7th]]
   - [[./MATH127C/MATH127C_04_13.pdf][April 13th]]
+  - [[./MATH127C/MATH127C_04_21.pdf][April 21st]]
     
 * Physics I
   - [[./PHSX210G/PHSX210G_2_3.pdf][February 3rd]]
