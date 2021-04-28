@@ -22,7 +22,7 @@
   Second week covered Partial Derivatives and associated Product Rule, Chain
   Rule, and Quotient Rule.
 
-  Notes: [[./MATH127C/MATH127C_02_10.pdf][February 10th]]
+  Notes: [[./MATH127C/MATH127C_02_17.pdf][February 17th]]
    
 * Week 3, Feb 22nd
   Week three covered exciting material, such as Differentiability, Gradient of a
