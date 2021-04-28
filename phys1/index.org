@@ -1,0 +1,80 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:nil
+#+options: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:nil e:t
+#+options: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+options: tasks:t tex:t timestamp:nil title:t toc:nil todo:t |:t num:nil
+#+html_head: <link rel="stylesheet" href="https://sandyuraz.com/styles/org.min.css">
+#+language: en
+
+#+title: Physics I
+#+subtitle: Sandy's Tutor Notes
+#+author: Sandy Urazayev
+#+date: 117; 12021 H.E.
+#+email: University of Kansas (ctu@ku.edu)
+
+Treat the notes here just as a collection of problems over various fields of
+physics with detailed solution sets.
+
+* Week 1, Feb 8th
+  Kinematics (linear and rotational, constant and non-constant acceleration).
+  
+  Notes: [[./PHSX210G/PHSX210G_02_08.pdf][February 8th]]
+   
+* Week 2, Feb 15th
+  Kinematics (linear and rotational, constant and non-constant acceleration).
+  Energy, energy conservation, and energy-based mechanics .
+
+  Notes: [[./PHSX210B/PHSX210B_02_18.pdf][February 18th]], [[./PHSX210G/PHSX210G_02_22.pdf][February 22nd]]
+   
+* Week 3, Feb 22nd
+  Oscillatory motion.
+
+  Notes: [[./PHSX210B/PHSX210B_02_25.pdf][February 25th]]
+   
+* Week 4, March 1st
+  Oscillatory motion.
+  
+  Notes: [[./PHSX210G/PHSX210G_03_01.pdf][March 1st]], [[./PHSX210B/PHSX210B_03_04.pdf][March 4th]]
+   
+* Week 5, March 8th
+  Newton’s laws (forces, mechanics, and moving objects).
+  
+  Notes: [[./PHSX210G/PHSX210G_03_08.pdf][March 8th]], [[./PHSX210B/PHSX210B_03_11.pdf][March 11th]]
+   
+* Week 6, March 15th
+  Newton’s laws (forces, mechanics, and moving objects).
+
+  Notes: [[./PHSX210G/PHSX210G_03_15.pdf][March 15th]], [[./PHSX210B/PHSX210B_03_18.pdf][March 18th]]
+   
+* Week 7, March 22nd
+  Newton’s laws (forces, mechanics, and moving objects).
+  Momentum (linear and rotational).
+
+  Notes: [[./PHSX210G/PHSX210G_03_22.pdf][March 22nd]], [[./PHSX210B/PHSX210B_03_25.pdf][March 25th]]
+   
+* Week 8, March 29th
+  Newton’s laws (forces, mechanics, and moving objects).
+  Momentum (linear and rotational).
+  
+  Notes: [[./PHSX210G/PHSX210G_03_29.pdf][March 29th]], [[./PHSX210B/PHSX210B_04_01.pdf][April 1st]]
+
+* Week 9, April 5th
+  Newton’s laws (forces, mechanics, and moving objects).
+  
+  Notes: [[./PHSX210G/PHSX210G_04_05.pdf][April 5th]]
+
+* Week 10, April 12th
+  Newton’s laws (forces, mechanics, and moving objects).
+  Momentum (linear and rotational).
+  
+  Notes: [[./PHSX210G/PHSX210G_04_12.pdf][April 12th]]
+  
+* Week 11, April 19th
+  Newton’s laws (forces, mechanics, and moving objects).
+  Momentum (linear and rotational).
+  
+  Notes: [[./PHSX210G/PHSX210G_04_19.pdf][April 19th]]
+   
+* Week 12, April 26th
+  Last week of meetings!
+  
+  Notes: [[./PHSX210G/PHSX210G_04_26.pdf][April 26th]]

@@ -1,0 +1,88 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:nil
+#+options: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:nil e:t
+#+options: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+options: tasks:t tex:t timestamp:nil title:t toc:nil todo:t |:t num:nil
+#+html_head: <link rel="stylesheet" href="https://sandyuraz.com/styles/org.min.css">
+#+language: en
+
+#+title: Calculus III
+#+subtitle: Sandy's Tutor Notes
+#+author: Sandy Urazayev
+#+date: 117; 12021 H.E.
+#+email: University of Kansas (ctu@ku.edu)
+
+* Week 1, Feb 8th
+  Calc 3 spent their first week on a quick recap of Vectors, Dot Product
+  properties, and general gist of the end material of Calc 2, including Polar
+  Coordinates.
+  
+  Notes: [[./MATH127C/MATH127C_02_10.pdf][February 10th]]
+   
+* Week 2, Feb 15th
+  Second week covered Partial Derivatives and associated Product Rule, Chain
+  Rule, and Quotient Rule.
+
+  Notes: [[./MATH127C/MATH127C_02_10.pdf][February 10th]]
+   
+* Week 3, Feb 22nd
+  Week three covered exciting material, such as Differentiability, Gradient of a
+  function, Directional Derivatives, Double Limits, Polar Approach in limits,
+  and Level Curves.
+
+  Notes: [[./MATH127C/MATH127C_02_24.pdf][February 24th]]
+   
+* Week 4, March 1st
+  Tangent Planes to Surfaces at a point! More complex multivariate limits on
+  surfaces by using different coordinate systems and matching level curves.
+  Optimization in Several Variables with Lagrange Multipliers.
+  
+  Notes: [[./MATH127C/MATH127C_03_03.pdf][March 3rd]]
+   
+* Week 5, March 8th
+  Midterm I review. Midterm I is held on March 10th. Later, we went over
+  Integration in Two Variables and Double Integrals over General Regions.
+  
+  Notes: [[./MATH127C/MATH127C_03_09.pdf][March 9th]]
+   
+* Week 6, March 15th
+  Continuation over Double Integrals over General Regions. Starting on Triple
+  Integrales and their applications!
+
+  Notes: [[./MATH127C/MATH127C_03_17.pdf][March 17th]]
+   
+* Week 7, March 22nd
+  Doing Applications of Multiple Integrals and Change of Variables.
+  
+  Notes: [[./MATH127C/MATH127C_03_24.pdf][March 24th]]
+   
+* Week 8, March 29th
+  Integration in Polar, Cylindrical, Spherical Coordinates. Working with
+  Vector-Valued Functions and Calculus of Vector-Valued Functions.
+  
+  Notes: [[./MATH127C/MATH127C_03_31.pdf][March 31st]]
+
+* Week 9, April 5th
+  We learned Arc Length and Speed, Vector Fields, and Line Integrals!
+  
+  Notes: [[./MATH127C/MATH127C_04_07.pdf][April 7th]]
+
+* Week 10, April 12th
+  The students were preparing for their second Midterm on April 14th. We went
+  over Conservative Vector Fields.
+  
+  Notes: [[./MATH127C/MATH127C_04_13.pdf][April 13th]]
+  
+* Week 11, April 19th
+  Green's Theorem, Parametrized Surfaces, and Surface Integrals.
+  
+  Notes: [[./MATH127C/MATH127C_04_21.pdf][April 21st]]
+   
+* Week 12, April 26th
+  This is the last meeting of the semester! They should go over
+  Parametrized Surfaces, Surface Integrals, and Surface Integrals of Vector
+  Fields.
+
+  During their last week, which is the week after this one, they will cover
+  Stoke's Theorem and Divergence Theorem.
+  
+  Notes:

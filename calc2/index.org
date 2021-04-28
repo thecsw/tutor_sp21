@@ -1,0 +1,91 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:nil
+#+options: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:nil e:t
+#+options: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
+#+options: tasks:t tex:t timestamp:nil title:t toc:nil todo:t |:t num:nil
+#+html_head: <link rel="stylesheet" href="https://sandyuraz.com/styles/org.min.css">
+#+language: en
+
+#+title: Calculus II
+#+subtitle: Sandy's Tutor Notes
+#+author: Sandy Urazayev
+#+date: 117; 12021 H.E.
+#+email: University of Kansas (ctu@ku.edu)
+
+* Week 1, Feb 8th
+  During the first week, Calculus II students started a quick recap on
+  elementary derivatives, integrals, L'Hôpital's rule. Followed by Substitution
+  Method and Improper Integrals.
+
+  Notes: [[./MATH126H/MATH126H_02_09.pdf][February 9th]]
+   
+* Week 2, Feb 15th
+  Second week covered Sequences and Summing an Infinite Series.
+
+  Notes: (no notes to publish)
+   
+* Week 3, Feb 22nd
+  This week continued the Infinite Series and started Convergence of Series
+  with Positive Terms.
+
+  Notes: [[./MATH126A/MATH126A_02_22.pdf][February 22nd]], [[./MATH126H/MATH126H_02_23.pdf][February 23rd]]
+   
+* Week 4, March 1st
+  Fourth week concentrated on Power Series, Taylor Polynomials, and Taylor
+  Series. Fantastic things such as Squeeze Theorem and limit convergence
+  theorems! 
+
+  Notes: [[./MATH126A/MATH126A_03_01.pdf][March 1st]], [[./MATH126H/MATH126H_03_02.pdf][March 2nd]]
+   
+* Week 5, March 8th
+  Week five spent the first days of the week preparing for their first
+  midterm. I did some problems to prepare students on topics from Week 1 up to
+  Week 4. Midterm I was held on Tuesday, March 9th. Later in the week, the
+  class has covered Area Between Two Curves, and Setting Up Integrals.
+
+  Notes: [[./MATH126A/MATH126A_03_08.pdf][March 8th]]
+   
+* Week 6, March 15th
+  This week has covered some fun material over Volumes of Revolution, Method of
+  Cylindrical Shells, and Work & Energy problems. Do You remember finding volumes
+  by rotating functions with defined domain on axis parallel or orthogonal to
+  the axis of rotation? Don't forget about Riemann Sums.
+
+  Notes: [[./MATH126A/MATH126A_03_15.pdf][March 15th]], [[./MATH126H/MATH126H_03_16.pdf][March 16th]]
+   
+* Week 7, March 22nd
+  This week covered such fundamental material as Integration by Parts and some
+  ways to solve Trigonometric Integrals.
+
+  Notes: [[./MATH126A/MATH126A_03_22.pdf][March 22nd]], [[./MATH126H/MATH126H_03_23.pdf][March 23rd]]
+   
+* Week 8, March 29th
+  This week went on some Trigonometric Substitution and methods of Partial
+  Fraction Decomposition.
+
+  Notes: [[./MATH126A/MATH126A_03_29.pdf][March 29th]], [[./MATH126H/MATH126H_03_30.pdf][March 30th]]
+
+* Week 9, April 5th
+  This has been an exciting week, where Calculus II learned the art of
+  Parametric Equations, finding Arc Lengths, and a different way of thinking
+  about space, specifically, applying Polar Coordinates.
+
+  Notes: [[./MATH126A/MATH126A_04_05.pdf][April 5th]]
+
+* Week 10, April 12th
+  The beginning of this week was spent in preparation for Midterm II, which was
+  held on April 13th. Later, they just started learning about Vectors.
+   
+  Notes: [[./MATH126A/MATH126A_04_12.pdf][April 12th]]
+  
+* Week 11, April 19th
+  This week went over Vectors in Three or more Dimensions and Dot
+  Product. Exciting!
+
+  Notes: [[./MATH126H/MATH126H_04_20.pdf][April 20th]]
+   
+* Week 12, April 26th
+  Last week of tutoring! It's bittersweet to see the semester coming to an end,
+  especially the study sessions. We finished with more Vector Material, Cross
+  Products, and did some wrap-up problems.
+
+  Notes: [[./MATH126A/MATH126A_04_26.pdf][April 26th]], [[./MATH126H/MATH126H_04_27.pdf][April 27th]]

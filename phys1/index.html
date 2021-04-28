@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Physics I</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<link rel="stylesheet" href="https://sandyuraz.com/styles/org.min.css">
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="content">
+<h1 class="title">Physics I
+<br />
+<span class="subtitle">Sandy's Tutor Notes</span>
+</h1>
+<p>
+Treat the notes here just as a collection of problems over various fields of
+physics with detailed solution sets.
+</p>
+
+<div id="outline-container-orgcc0adcb" class="outline-2">
+<h2 id="orgcc0adcb">Week 1, Feb 8th</h2>
+<div class="outline-text-2" id="text-orgcc0adcb">
+<p>
+Kinematics (linear and rotational, constant and non-constant acceleration).
+</p>
+
+<p>
+Notes: <a href="./PHSX210G/PHSX210G_02_08.pdf">February 8th</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5ba7c76" class="outline-2">
+<h2 id="org5ba7c76">Week 2, Feb 15th</h2>
+<div class="outline-text-2" id="text-org5ba7c76">
+<p>
+Kinematics (linear and rotational, constant and non-constant acceleration).
+Energy, energy conservation, and energy-based mechanics .
+</p>
+
+<p>
+Notes: <a href="./PHSX210B/PHSX210B_02_18.pdf">February 18th</a>, <a href="./PHSX210G/PHSX210G_02_22.pdf">February 22nd</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org07a342d" class="outline-2">
+<h2 id="org07a342d">Week 3, Feb 22nd</h2>
+<div class="outline-text-2" id="text-org07a342d">
+<p>
+Oscillatory motion.
+</p>
+
+<p>
+Notes: <a href="./PHSX210B/PHSX210B_02_25.pdf">February 25th</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge045e83" class="outline-2">
+<h2 id="orge045e83">Week 4, March 1st</h2>
+<div class="outline-text-2" id="text-orge045e83">
+<p>
+Oscillatory motion.
+</p>
+
+<p>
+Notes: <a href="./PHSX210G/PHSX210G_03_01.pdf">March 1st</a>, <a href="./PHSX210B/PHSX210B_03_04.pdf">March 4th</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org2c26ada" class="outline-2">
+<h2 id="org2c26ada">Week 5, March 8th</h2>
+<div class="outline-text-2" id="text-org2c26ada">
+<p>
+Newton’s laws (forces, mechanics, and moving objects).
+</p>
+
+<p>
+Notes: <a href="./PHSX210G/PHSX210G_03_08.pdf">March 8th</a>, <a href="./PHSX210B/PHSX210B_03_11.pdf">March 11th</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org903a8d9" class="outline-2">
+<h2 id="org903a8d9">Week 6, March 15th</h2>
+<div class="outline-text-2" id="text-org903a8d9">
+<p>
+Newton’s laws (forces, mechanics, and moving objects).
+</p>
+
+<p>
+Notes: <a href="./PHSX210G/PHSX210G_03_15.pdf">March 15th</a>, <a href="./PHSX210B/PHSX210B_03_18.pdf">March 18th</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgc4f8b65" class="outline-2">
+<h2 id="orgc4f8b65">Week 7, March 22nd</h2>
+<div class="outline-text-2" id="text-orgc4f8b65">
+<p>
+Newton’s laws (forces, mechanics, and moving objects).
+Momentum (linear and rotational).
+</p>
+
+<p>
+Notes: <a href="./PHSX210G/PHSX210G_03_22.pdf">March 22nd</a>, <a href="./PHSX210B/PHSX210B_03_25.pdf">March 25th</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0cb29c1" class="outline-2">
+<h2 id="org0cb29c1">Week 8, March 29th</h2>
+<div class="outline-text-2" id="text-org0cb29c1">
+<p>
+Newton’s laws (forces, mechanics, and moving objects).
+Momentum (linear and rotational).
+</p>
+
+<p>
+Notes: <a href="./PHSX210G/PHSX210G_03_29.pdf">March 29th</a>, <a href="./PHSX210B/PHSX210B_04_01.pdf">April 1st</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org5cff0d1" class="outline-2">
+<h2 id="org5cff0d1">Week 9, April 5th</h2>
+<div class="outline-text-2" id="text-org5cff0d1">
+<p>
+Newton’s laws (forces, mechanics, and moving objects).
+</p>
+
+<p>
+Notes: <a href="./PHSX210G/PHSX210G_04_05.pdf">April 5th</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge23d469" class="outline-2">
+<h2 id="orge23d469">Week 10, April 12th</h2>
+<div class="outline-text-2" id="text-orge23d469">
+<p>
+Newton’s laws (forces, mechanics, and moving objects).
+Momentum (linear and rotational).
+</p>
+
+<p>
+Notes: <a href="./PHSX210G/PHSX210G_04_12.pdf">April 12th</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-org21f0476" class="outline-2">
+<h2 id="org21f0476">Week 11, April 19th</h2>
+<div class="outline-text-2" id="text-org21f0476">
+<p>
+Newton’s laws (forces, mechanics, and moving objects).
+Momentum (linear and rotational).
+</p>
+
+<p>
+Notes: <a href="./PHSX210G/PHSX210G_04_19.pdf">April 19th</a>
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgebdde94" class="outline-2">
+<h2 id="orgebdde94">Week 12, April 26th</h2>
+<div class="outline-text-2" id="text-orgebdde94">
+<p>
+Last week of meetings!
+</p>
+
+<p>
+Notes: <a href="./PHSX210G/PHSX210G_04_26.pdf">April 26th</a>
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>
