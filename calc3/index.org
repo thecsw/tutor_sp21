@@ -85,4 +85,4 @@
   During their last week, which is the week after this one, they will cover
   Stoke's Theorem and Divergence Theorem.
   
-  Notes:
+  Notes: [[./MATH127C/MATH127C_04_28.pdf][April 28th]]
