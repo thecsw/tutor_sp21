@@ -1,284 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Sandy's Tutor Notes</title>
-<meta name="generator" content="Org mode" />
-<style type="text/css">
- <!--/*--><![CDATA[/*><!--*/
-  .title  { text-align: center;
-             margin-bottom: .2em; }
-  .subtitle { text-align: center;
-              font-size: medium;
-              font-weight: bold;
-              margin-top:0; }
-  .todo   { font-family: monospace; color: red; }
-  .done   { font-family: monospace; color: green; }
-  .priority { font-family: monospace; color: orange; }
-  .tag    { background-color: #eee; font-family: monospace;
-            padding: 2px; font-size: 80%; font-weight: normal; }
-  .timestamp { color: #bebebe; }
-  .timestamp-kwd { color: #5f9ea0; }
-  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
-  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
-  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
-  .underline { text-decoration: underline; }
-  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
-  p.verse { margin-left: 3%; }
-  pre {
-    border: 1px solid #ccc;
-    box-shadow: 3px 3px 3px #eee;
-    padding: 8pt;
-    font-family: monospace;
-    overflow: auto;
-    margin: 1.2em;
-  }
-  pre.src {
-    position: relative;
-    overflow: auto;
-    padding-top: 1.2em;
-  }
-  pre.src:before {
-    display: none;
-    position: absolute;
-    background-color: white;
-    top: -10px;
-    right: 10px;
-    padding: 3px;
-    border: 1px solid black;
-  }
-  pre.src:hover:before { display: inline; margin-top: 14px;}
-  /* Languages per Org manual */
-  pre.src-asymptote:before { content: 'Asymptote'; }
-  pre.src-awk:before { content: 'Awk'; }
-  pre.src-C:before { content: 'C'; }
-  /* pre.src-C++ doesn't work in CSS */
-  pre.src-clojure:before { content: 'Clojure'; }
-  pre.src-css:before { content: 'CSS'; }
-  pre.src-D:before { content: 'D'; }
-  pre.src-ditaa:before { content: 'ditaa'; }
-  pre.src-dot:before { content: 'Graphviz'; }
-  pre.src-calc:before { content: 'Emacs Calc'; }
-  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
-  pre.src-fortran:before { content: 'Fortran'; }
-  pre.src-gnuplot:before { content: 'gnuplot'; }
-  pre.src-haskell:before { content: 'Haskell'; }
-  pre.src-hledger:before { content: 'hledger'; }
-  pre.src-java:before { content: 'Java'; }
-  pre.src-js:before { content: 'Javascript'; }
-  pre.src-latex:before { content: 'LaTeX'; }
-  pre.src-ledger:before { content: 'Ledger'; }
-  pre.src-lisp:before { content: 'Lisp'; }
-  pre.src-lilypond:before { content: 'Lilypond'; }
-  pre.src-lua:before { content: 'Lua'; }
-  pre.src-matlab:before { content: 'MATLAB'; }
-  pre.src-mscgen:before { content: 'Mscgen'; }
-  pre.src-ocaml:before { content: 'Objective Caml'; }
-  pre.src-octave:before { content: 'Octave'; }
-  pre.src-org:before { content: 'Org mode'; }
-  pre.src-oz:before { content: 'OZ'; }
-  pre.src-plantuml:before { content: 'Plantuml'; }
-  pre.src-processing:before { content: 'Processing.js'; }
-  pre.src-python:before { content: 'Python'; }
-  pre.src-R:before { content: 'R'; }
-  pre.src-ruby:before { content: 'Ruby'; }
-  pre.src-sass:before { content: 'Sass'; }
-  pre.src-scheme:before { content: 'Scheme'; }
-  pre.src-screen:before { content: 'Gnu Screen'; }
-  pre.src-sed:before { content: 'Sed'; }
-  pre.src-sh:before { content: 'shell'; }
-  pre.src-sql:before { content: 'SQL'; }
-  pre.src-sqlite:before { content: 'SQLite'; }
-  /* additional languages in org.el's org-babel-load-languages alist */
-  pre.src-forth:before { content: 'Forth'; }
-  pre.src-io:before { content: 'IO'; }
-  pre.src-J:before { content: 'J'; }
-  pre.src-makefile:before { content: 'Makefile'; }
-  pre.src-maxima:before { content: 'Maxima'; }
-  pre.src-perl:before { content: 'Perl'; }
-  pre.src-picolisp:before { content: 'Pico Lisp'; }
-  pre.src-scala:before { content: 'Scala'; }
-  pre.src-shell:before { content: 'Shell Script'; }
-  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
-  /* additional language identifiers per "defun org-babel-execute"
-       in ob-*.el */
-  pre.src-cpp:before  { content: 'C++'; }
-  pre.src-abc:before  { content: 'ABC'; }
-  pre.src-coq:before  { content: 'Coq'; }
-  pre.src-groovy:before  { content: 'Groovy'; }
-  /* additional language identifiers from org-babel-shell-names in
-     ob-shell.el: ob-shell is the only babel language using a lambda to put
-     the execution function name together. */
-  pre.src-bash:before  { content: 'bash'; }
-  pre.src-csh:before  { content: 'csh'; }
-  pre.src-ash:before  { content: 'ash'; }
-  pre.src-dash:before  { content: 'dash'; }
-  pre.src-ksh:before  { content: 'ksh'; }
-  pre.src-mksh:before  { content: 'mksh'; }
-  pre.src-posh:before  { content: 'posh'; }
-  /* Additional Emacs modes also supported by the LaTeX listings package */
-  pre.src-ada:before { content: 'Ada'; }
-  pre.src-asm:before { content: 'Assembler'; }
-  pre.src-caml:before { content: 'Caml'; }
-  pre.src-delphi:before { content: 'Delphi'; }
-  pre.src-html:before { content: 'HTML'; }
-  pre.src-idl:before { content: 'IDL'; }
-  pre.src-mercury:before { content: 'Mercury'; }
-  pre.src-metapost:before { content: 'MetaPost'; }
-  pre.src-modula-2:before { content: 'Modula-2'; }
-  pre.src-pascal:before { content: 'Pascal'; }
-  pre.src-ps:before { content: 'PostScript'; }
-  pre.src-prolog:before { content: 'Prolog'; }
-  pre.src-simula:before { content: 'Simula'; }
-  pre.src-tcl:before { content: 'tcl'; }
-  pre.src-tex:before { content: 'TeX'; }
-  pre.src-plain-tex:before { content: 'Plain TeX'; }
-  pre.src-verilog:before { content: 'Verilog'; }
-  pre.src-vhdl:before { content: 'VHDL'; }
-  pre.src-xml:before { content: 'XML'; }
-  pre.src-nxml:before { content: 'XML'; }
-  /* add a generic configuration mode; LaTeX export needs an additional
-     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
-  pre.src-conf:before { content: 'Configuration File'; }
+<link rel="canonical" href="https://sandyuraz.com/tutor_sp21/" type=""/>
+<link rel="shortcut icon" href="https://sandyuraz.com/tutor_sp21/favicon.ico" type="image/x-icon"/>
+<link rel="icon" href="https://sandyuraz.com/tutor_sp21/favicon.ico" type=""/>
 
-  table { border-collapse:collapse; }
-  caption.t-above { caption-side: top; }
-  caption.t-bottom { caption-side: bottom; }
-  td, th { vertical-align:top;  }
-  th.org-right  { text-align: center;  }
-  th.org-left   { text-align: center;   }
-  th.org-center { text-align: center; }
-  td.org-right  { text-align: right;  }
-  td.org-left   { text-align: left;   }
-  td.org-center { text-align: center; }
-  dt { font-weight: bold; }
-  .footpara { display: inline; }
-  .footdef  { margin-bottom: 1em; }
-  .figure { padding: 1em; }
-  .figure p { text-align: center; }
-  .equation-container {
-    display: table;
-    text-align: center;
-    width: 100%;
-  }
-  .equation {
-    vertical-align: middle;
-  }
-  .equation-label {
-    display: table-cell;
-    text-align: right;
-    vertical-align: middle;
-  }
-  .inlinetask {
-    padding: 10px;
-    border: 2px solid gray;
-    margin: 10px;
-    background: #ffffcc;
-  }
-  #org-div-home-and-up
-   { text-align: right; font-size: 70%; white-space: nowrap; }
-  textarea { overflow-x: auto; }
-  .linenr { font-size: smaller }
-  .code-highlighted { background-color: #ffff00; }
-  .org-info-js_info-navigation { border-style: none; }
-  #org-info-js_console-label
-    { font-size: 10px; font-weight: bold; white-space: nowrap; }
-  .org-info-js_search-highlight
-    { background-color: #ffff00; color: #000000; font-weight: bold; }
-  .org-svg { width: 90%; }
-  /*]]>*/-->
-</style>
-<link rel="stylesheet" href="https://sandyuraz.com/styles/org.min.css">
-<script type="text/javascript">
-// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
-<!--/*--><![CDATA[/*><!--*/
-     function CodeHighlightOn(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.add("code-highlighted");
-         target.classList.add("code-highlighted");
-       }
-     }
-     function CodeHighlightOff(elem, id)
-     {
-       var target = document.getElementById(id);
-       if(null != target) {
-         elem.classList.remove("code-highlighted");
-         target.classList.remove("code-highlighted");
-       }
-     }
-    /*]]>*///-->
-// @license-end
-</script>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" property="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" property="generator" content="Darkness">
+<meta name="author" property="author" content="email">
+<meta name="theme-color" property="theme-color" content="#fffff4">
+<meta name="description" property="description" content="Go to [[https://sandyuraz.com][Sandy&amp;#39;s Website 🚀]]...">
+<meta name="og:title" property="og:title" content="Sandy&amp;#39;s Tutor Notes">
+<meta name="og:site_name" property="og:site_name" content="Sandy&amp;#39;s Tutor Notes">
+<meta name="og:url" property="og:url" content="https://sandyuraz.com/tutor_sp21/">
+<meta name="og:locale" property="og:locale" content="en_GB">
+<meta name="og:type" property="og:type" content="website">
+<meta name="og:image" property="og:image" content="https://sandyuraz.com/tutor_sp21//preview.png">
+<meta name="og:image:alt" property="og:image:alt" content="Preview">
+<meta name="og:image:type" property="og:image:type" content="image/png">
+<meta name="og:image:width" property="og:image:width" content="1280">
+<meta name="og:image:height" property="og:image:height" content="640">
+<meta name="og:description" property="og:description" content="Go to [[https://sandyuraz.com][Sandy&amp;#39;s Website 🚀]]...">
+<meta name="twitter:card" property="twitter:card" content="summary_large_image">
+<meta name="twitter:site" property="twitter:site" content="Sandy&amp;#39;s Tutor Notes">
+<meta name="twitter:creator" property="twitter:creator" content="@sandyuraz">
+<meta name="twitter:image:src" property="twitter:image:src" content="https://sandyuraz.com/tutor_sp21//preview.png">
+<meta name="twitter:url" property="twitter:url" content="https://sandyuraz.com/tutor_sp21/">
+<meta name="twitter:title" property="twitter:title" content="Sandy&amp;#39;s Tutor Notes">
+<meta name="twitter:description" property="twitter:description" content="Go to [[https://sandyuraz.com][Sandy&amp;#39;s Website 🚀]]...">
+
+<script type="module">document.documentElement.classList.remove("no-js");document.documentElement.classList.add("js");</script>
+<script async src="https://sandyuraz.com/scripts/time.js"></script>
+<title>Sandy’s Tutor Notes</title>
 </head>
-<body>
+<link rel="stylesheet" type="text/css" href="https://sandyuraz.com/css/web.css">
+
+<body class="article">
+
+<div id="header">
+<h1><img id="myface" src="https://sandyuraz.com/tutor_sp21/asuka_patch.png" width="112" height="112">Sandy’s Tutor Notes</h1>
+<div class="details">
+<span id="author" class="author">email</span><br>
+<span id="email" class="email">ctu [at] ku [dot] edu</span><br>
+<span id="revdate">
+<a href="https://sandyuraz.com/tutor_sp21/phys1">Physics I</a> | <a href="https://sandyuraz.com/tutor_sp21/calc2">Calculus II</a> | <a href="https://sandyuraz.com/tutor_sp21/calc3">Calculus III</a> </span>
+</div>
+<div id="hetime" class="details"></div>
+</div>
 <div id="content">
-<h1 class="title">Sandy's Tutor Notes
-<br />
-<span class="subtitle">Spring 2021</span>
-</h1>
-<p>
-Go to <a href="https://sandyuraz.com">Sandy's Website 🚀</a>
-</p>
 
-<div id="outline-container-org9f1e623" class="outline-2">
-<h2 id="org9f1e623">Introduction</h2>
-<div class="outline-text-2" id="text-org9f1e623">
-<p>
-Hello there! This is a webpage for some of my notes I took while tutoring in
-the Spring of 2021. This notes collection includes worked examples, problems,
-worksheet questions for Calculus II, Calculus III, and Physics I.
-</p>
+<div class="paragraph">
+<p>Go to <a href="https://sandyuraz.com">Sandy&#39;s Website 🚀</a> </p>
+</div>
+<div class="paragraph">
+<p title="Mon, 01 Feb 2021">32; 12021 H.E. </p>
+</div>
+<div class="sect1">
+<h2 id="Introduction">Introduction</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Hello there! This is a webpage for some of my notes I took while tutoring in the Spring of 2021. This notes collection includes worked examples, problems, worksheet questions for Calculus II, Calculus III, and Physics I. </p>
+</div>
+<div class="paragraph">
+<p>I took notes while tutoring for KU School of Engineering. The class codes I tutored are MATH 126, MATH 127, and PHSX 210. The study session started on the second week of classes, so if the semester&#39;s first day was February 1st, study sessions started on the week of February 8th. </p>
+</div>
+<div class="paragraph">
+<p>For the sake of simplicity, we start counting weeks not from the first day of classes, but the first day of study sessions. So each week is followed by the date of the week&#39;s Monday. </p>
+</div>
+<div class="paragraph">
+<p>I need to say that some notes may be a week behind the material in class. This is simply because students have a week after a new lecture to write up their homeworks, quizzes, and take-home assignments. Notes, of course, concentrate on tackling those problems. Try opening various notes if you&#39;re looking for specific material. </p>
+</div></div>
+<div class="sect2">
+<h3 id="🂢 [[./calc2][Calculus II]]">🂢 <a href="./calc2">Calculus II</a></h3>
+<div class="sectionbody"></div>
+</div>
+<div class="sect2">
+<h3 id="🂣 [[./calc3][Calculus III]]">🂣 <a href="./calc3">Calculus III</a></h3>
+<div class="sectionbody"></div>
+</div>
+<div class="sect2">
+<h3 id="🂱 [[./phys1][Physics I]]">🂱 <a href="./phys1">Physics I</a></h3>
+<div class="sectionbody">
+</div>
+<div class="paragraph">
+<p>If you are curious about the technical setup I had during the online study sessions, here is a description: </p>
+</div>
+<div class="paragraph">
+<p>Tutees and I would join the assigned room on my self-hosted version of <a href="https://galene.org">Galène</a>. I would stream using <a href="https://obsproject.com">OBS Studio</a>. Notes were taken in <a href="https://krita.org/en/">Krita</a> on <a href="https://gaomon.net/Pen_Tablet/M10K_2018.html">Gaomon M10K 2018 graphic drawing tablet.</a> PDF files were created from Krita&#39;s exported PNG files with <a href="https://imagemagick.org/index.php">ImageMagick.</a> </p>
+</div>
+</div>
+</div>
 
-<p>
-I took notes while tutoring for KU School of Engineering. The class codes I
-tutored are MATH 126, MATH 127, and PHSX 210. The study session started on the
-second week of classes, so if the semester's first day was February 1st, study
-sessions started on the week of February 8th.
-</p>
-
-<p>
-For the sake of simplicity, we start counting weeks not from the first day of
-classes, but the first day of study sessions. So each week is followed by the
-date of the week's Monday.
-</p>
-
-<p>
-I need to say that some notes may be a week behind the material in class. This
-is simply because students have a week after a new lecture to write up their
-homeworks, quizzes, and take-home assignments. Notes, of course, concentrate
-on tackling those problems. Try opening various notes if you're looking for
-specific material.
-</p>
-</div>
-</div>
-
-<div id="outline-container-org5a371ee" class="outline-2">
-<h2 id="org5a371ee">🂢 <a href="./calc2">Calculus II</a></h2>
-</div>
-<div id="outline-container-orgd64b96e" class="outline-2">
-<h2 id="orgd64b96e">🂣 <a href="./calc3">Calculus III</a></h2>
-</div>
-<div id="outline-container-orgf444cdc" class="outline-2">
-<h2 id="orgf444cdc">🂱 <a href="./phys1">Physics I</a></h2>
-<div class="outline-text-2" id="text-orgf444cdc">
-<p>
-If you are curious about the technical setup I had during the online study
-sessions, here is a description:
-</p>
-
-<p>
-Tutees and I would join the assigned room on my self-hosted version of <a href="https://galene.org">Galène</a>. I
-would stream using <a href="https://obsproject.com">OBS Studio</a>. Notes were taken in <a href="https://krita.org/en/">Krita</a> on
-<a href="https://gaomon.net/Pen_Tablet/M10K_2018.html">Gaomon M10K 2018 graphic drawing tablet.</a> PDF files were created from Krita's
-exported PNG files with <a href="https://imagemagick.org/index.php">ImageMagick.</a>
-</p>
-</div>
-</div>
-</div>
 </body>
 </html>

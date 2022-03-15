@@ -1,0 +1,34 @@
+title = "Sandy's Tutor Notes"
+url = "https://sandyuraz.com/tutor_sp21"
+#url = "/Users/thecsw/gits/sandyuraz"
+
+[website]
+locale = "en_GB"
+color = "#fffff4"
+twitter = "@sandyuraz"
+styles = ["https://sandyuraz.com/css/web.css"]
+tombs = []
+exclude = []
+
+[author]
+header = "asuka_patch.png"
+name = "email"
+email = "ctu [at] ku [dot] edu"
+
+[navigation]
+
+[navigation.1]
+link = "phys1"
+title = "Physics I"
+
+[navigation.2]
+link = "calc2"
+title = "Calculus II"
+
+[navigation.3]
+link = "calc3"
+title = "Calculus III"
+
+[navigation.4]
+link = ""
+title = "Home 🏠"

@@ -1,41 +1,32 @@
-#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline author:nil
-#+options: broken-links:nil c:nil creator:nil d:(not "LOGBOOK") date:nil e:t
-#+options: email:nil f:t inline:t num:t p:nil pri:nil prop:nil stat:t tags:t
-#+options: tasks:t tex:t timestamp:nil title:t toc:nil todo:t |:t num:nil
-#+html_head: <link rel="stylesheet" href="https://sandyuraz.com/styles/org.min.css">
-#+language: en
-
-#+title: Sandy's Tutor Notes
-#+subtitle: Spring 2021
-#+author: Sandy Urazayev
-#+date: 32; 12021 H.E.
-#+email: University of Kansas (ctu@ku.edu)
+* Sandy's Tutor Notes
 
 Go to [[https://sandyuraz.com][Sandy's Website 🚀]]
 
-* Introduction
-  Hello there! This is a webpage for some of my notes I took while tutoring in
-  the Spring of 2021. This notes collection includes worked examples, problems,
-  worksheet questions for Calculus II, Calculus III, and Physics I.
+32; 12021 H.E.
 
-  I took notes while tutoring for KU School of Engineering. The class codes I
-  tutored are MATH 126, MATH 127, and PHSX 210. The study session started on the
-  second week of classes, so if the semester's first day was February 1st, study
-  sessions started on the week of February 8th.
+** Introduction
+Hello there! This is a webpage for some of my notes I took while tutoring in
+the Spring of 2021. This notes collection includes worked examples, problems,
+worksheet questions for Calculus II, Calculus III, and Physics I.
 
-  For the sake of simplicity, we start counting weeks not from the first day of
-  classes, but the first day of study sessions. So each week is followed by the
-  date of the week's Monday.
+I took notes while tutoring for KU School of Engineering. The class codes I
+tutored are MATH 126, MATH 127, and PHSX 210. The study session started on the
+second week of classes, so if the semester's first day was February 1st, study
+sessions started on the week of February 8th.
 
-  I need to say that some notes may be a week behind the material in class. This
-  is simply because students have a week after a new lecture to write up their
-  homeworks, quizzes, and take-home assignments. Notes, of course, concentrate
-  on tackling those problems. Try opening various notes if you're looking for
-  specific material.
+For the sake of simplicity, we start counting weeks not from the first day of
+classes, but the first day of study sessions. So each week is followed by the
+date of the week's Monday.
 
-* 🂢 [[./calc2][Calculus II]]
-* 🂣 [[./calc3][Calculus III]]    
-* 🂱 [[./phys1][Physics I]]
+I need to say that some notes may be a week behind the material in class. This
+is simply because students have a week after a new lecture to write up their
+homeworks, quizzes, and take-home assignments. Notes, of course, concentrate
+on tackling those problems. Try opening various notes if you're looking for
+specific material.
+
+*** 🂢 [[./calc2][Calculus II]]
+*** 🂣 [[./calc3][Calculus III]]    
+*** 🂱 [[./phys1][Physics I]]
 
   If you are curious about the technical setup I had during the online study
   sessions, here is a description:
@@ -44,3 +35,4 @@ Go to [[https://sandyuraz.com][Sandy's Website 🚀]]
   would stream using [[https://obsproject.com][OBS Studio]]. Notes were taken in [[https://krita.org/en/][Krita]] on
   [[https://gaomon.net/Pen_Tablet/M10K_2018.html][Gaomon M10K 2018 graphic drawing tablet.]] PDF files were created from Krita's
   exported PNG files with [[https://imagemagick.org/index.php][ImageMagick.]]
+  
