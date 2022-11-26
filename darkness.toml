@@ -6,7 +6,7 @@ url = "https://sandyuraz.com/tutor_sp21"
 locale = "en_GB"
 color = "#fffff4"
 twitter = "@sandyuraz"
-styles = ["https://sandyuraz.com/css/web.css"]
+styles = ["https://sandyuraz.com/css/darkness.css"]
 tombs = []
 exclude = []
 
