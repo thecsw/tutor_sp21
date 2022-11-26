@@ -10,7 +10,7 @@ styles = ["https://sandyuraz.com/css/darkness.css"]
 tombs = []
 
 [author]
-header = "asuka_patch.png"
+image = "asuka_patch.png"
 name = "email"
 email = "ctu [at] ku [dot] edu"
 
