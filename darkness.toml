@@ -8,7 +8,6 @@ color = "#fffff4"
 twitter = "@sandyuraz"
 styles = ["https://sandyuraz.com/css/darkness.css"]
 tombs = []
-exclude = []
 
 [author]
 header = "asuka_patch.png"
